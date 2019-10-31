@@ -10,9 +10,9 @@ const functions = require('firebase-functions');
 const app = dialogflow({debug: true});
 
 // Handle the Dialogflow intent named 'bike available'.
-app.intent('bike available', async (conv) => {
+app.intent('TodaysOffer', async (conv) => {
 
-    return "Happy Halloween";
+    conv.close('Happy Halloween');
 });
 
 // Set the DialogflowApp object to handle the HTTPS POST request.
