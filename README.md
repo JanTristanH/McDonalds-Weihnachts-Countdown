@@ -1,5 +1,6 @@
 # McDonalds-Weihnachts-Countdown
 Eine Auflistung von den Angeboten des McDonalds Weihnachts Countdown
+````js
     var copies = {
         "17.10.": "Bis zum 13.11.2019 erwarten dich in der McDonald’s App täglich wechselnde Überraschungen! Heute: Big Mac® für nur 1€. Am besten gleich die App downloaden und mitmachen!<br><small class='footnote'>In allen teilnehmenden Restaurants. Nur ein Coupon pro Bestellung. Solange der Vorrat reicht.</small>",
         "18.10.": "Bis zum 13.11.2019 erwarten dich in der McDonald’s App täglich wechselnde Überraschungen! Heute: Doppelpack für nur 6,99€*. Am besten gleich die App downloaden und mitmachen!<br><small class='footnote'>*Gilt nicht für Big Tasty® Bacon, Double Steakhouse Beef sowie The Signature Collection™. In allen teilnehmenden Restaurants. Nur ein Coupon pro Bestellung. Solange der Vorrat reicht.</small>",
@@ -30,3 +31,4 @@ Eine Auflistung von den Angeboten des McDonalds Weihnachts Countdown
         "12.11.": "Bis zum 13.11.2019 erwarten dich in der McDonald’s App täglich wechselnde Überraschungen! Heute: 6er Chicken McNuggets® für nur 1€. Am besten gleich die App downloaden und mitmachen!<br><small class='footnote'>In allen teilnehmenden Restaurants. Nur ein Coupon pro Bestellung. Solange der Vorrat reicht.</small>",
         "13.11.": "Bis zum 13.11.2019 erwarten dich in der McDonald’s App täglich wechselnde Überraschungen! Heute: McFlurry® für nur 1€. Am besten gleich die App downloaden und mitmachen!<br><small class='footnote'>In allen teilnehmenden Restaurants. Nur ein Coupon pro Bestellung. Solange der Vorrat reicht.</small>"
     }
+````
