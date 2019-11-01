@@ -2,7 +2,7 @@
 
 // Import the Dialogflow module from the Actions on Google client library.
 const {dialogflow} = require('actions-on-google');
-
+const { firestore } = require('firebase-admin');
 // Import the firebase-functions package for deployment.
 const functions = require('firebase-functions');
 
@@ -42,11 +42,14 @@ app.intent('TodaysOffer', (conv) => {
         "12.11.": " Heute: 6er Chicken McNuggets® für nur 1€. ",
         "13.11.": " Heute: McFlurry® für nur 1€. "
     }
-     d = new Date;
-     day = d.getDate();
-     dateString = (day < 10 ? "0" : "") + day + "." + (d.getMonth() + 1) + ".";
-     conv.close(offers[dateString]);
-});
+
+
+        let d = new Date;
+        let day = d.getDate();
+        let dateString = (day < 10 ? "0" : "") + day + "." + (d.getMonth() + 1) + ".";
+        conv.close(offers[dateString]);
+
+    });
 
 // Set the DialogflowApp object to handle the HTTPS POST request.
 exports.dialogflowFirebaseFulfillment = functions.region('europe-west1') .https.onRequest(app);

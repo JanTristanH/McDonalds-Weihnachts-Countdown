@@ -1,4 +1,4 @@
-
+'use strict';
     var offers = {
         "17.10.": " Heute: Big Mac® für nur 1€. ",
         "18.10.": " Heute: Doppelpack für nur 6,99€. Gilt nicht für Big Tasty® Bacon, Double Steakhouse Beef sowie The Signature Collection™.",
@@ -29,6 +29,7 @@
         "12.11.": " Heute: 6er Chicken McNuggets® für nur 1€. ",
         "13.11.": " Heute: McFlurry® für nur 1€. "
     }
+    console.log(Date.now())
      d = new Date;
      day = d.getDate();
      dateString = (day < 10 ? "0" : "") + day + "." + (d.getMonth() + 1) + ".";
